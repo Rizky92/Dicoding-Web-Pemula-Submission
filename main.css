@@ -1,0 +1,24 @@
+/* html {
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background-color: hsl(210, 20%, 98%);
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: hsl(217, 33%, 17%);
+    }
+} */
+
+span.caret {
+    border-right: .05em solid;
+    animation: caret 1s steps(1) infinite;
+}
+
+@keyframes caret {
+    50% {
+        border-color: transparent;
+    }
+}
